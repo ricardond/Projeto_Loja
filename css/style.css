@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.title{
+    text-align: center;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(143, 53, 228);
+    color: #ffff;
+    text-align: center;
+    padding: 5px;
+}
+
+.card{
+    border: solid 1px #cccc;
+    border-radius: 10px;
+    width: 70%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.inputs input{
+    width: 60%;
+    height: 30px;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.buttons button{
+    padding: 5px;
+    outline: 0;
+    background-color: rgb(165, 94, 231);
+    border: 0;
+    color: #ffff;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.buttons button:hover{
+    background-color: blueviolet;
+    color: #ffff;
+}
+
+.content{
+    width: 70%;
+    margin-top: 15px;
+    margin: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid #cccc;
+    width: 100%;
+    text-align: center;
+}
+
+table th{
+    padding: 1px 5px;
+    background-color: #ecececcc;
+}
+
+table td{
+    padding: 1px 5px;
+}
+
+table td img{
+    width: 23px;
+}
+
+.acao{
+    text-align: center;
+}
